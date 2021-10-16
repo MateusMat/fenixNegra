@@ -20,7 +20,7 @@ app.use('/api', api)
 
 // Catch all other routes and return the index file
 app.get('*', (req, res) => {
-    res.send('FenixNegra is running!')
+	res.send('FenixNegra is running!')
 })
 
 // Set the port
